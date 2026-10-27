@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOM Practice — Lessons 9 and 10</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="dom.js" defer></script>
+</head>
+<body>
+<header id="site-header" class="site-header">
+  <div class="container">
+    <h1 id="practice-heading">DOM Manipulation Practice</h1>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#article">Article</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <article id="article" data-id="article-01" data-category="practice">
+    <h2>DOM PRACTICE</h2>
+    <p class="content">The DOM represents a webpage as objects that JavaScript can read and change.</p>
+    <p class="content">Try selecting elements, changing their text, and adding or removing elements.</p>
+    <p>This is the final paragraph in the article.</p>
+  </article>
+  <section id="practice-section" class="todo-card">
+    <h2>Make efforts</h2>
+    <div class="practice-controls">
+      <button type="button" id="change-text">Change heading and paragraph</button>
+      <button type="button" id="toggle-highlight">Toggle highlight</button>
+      <button type="button" id="add-nav">Add nav item</button>
+      <button type="button" id="add-paragraph">Add paragraph</button>
+      <button type="button" id="clone-nav">Clone first nav item</button>
+      <button type="button" id="remove-footer">Remove footer</button>
+    </div>
+    <div id="practice-output" aria-live="polite"></div>
+  </section>
+  <section id="contact" class="todo-card">
+    <h2>Contact form</h2>
+    <form id="contact-form">
+      <label for="email">Email address</label>
+      <input id="email" name="email" type="email" required>
+      <button type="submit">Submit demo</button>
+    </form>
+    <p id="form-status" aria-live="polite"></p>
+  </section>
+  <section class="todo-card">
+    <h2>Text demo</h2>
+    <p>Type-like HTML below is displayed as text in the safe box.</p>
+    <div id="unsafe" aria-label="Unsafe demo area"></div>
+    <div id="safe" aria-label="Safe demo area"></div>
+    <label for="live-input">Completed</label>
+    <input id="live-input" type="text">
+    <p id="live-output" aria-live="polite">Your text will appear here.</p>
+  </section>
+</main>
+<footer id="site-footer" class="site-footer"><div class="container"><p>DOM practice footer.</p></div></footer>
+</body>
+</html>
