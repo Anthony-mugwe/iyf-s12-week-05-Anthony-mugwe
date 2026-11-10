@@ -23,18 +23,18 @@
 - `README.md`
 
 ### Required Features
-- [ ] Add tasks.
-- [ ] Reject empty tasks.
-- [ ] Add tasks using Enter.
-- [ ] Mark tasks as completed.
-- [ ] Delete tasks.
-- [ ] Filter All, Active, and Completed tasks.
-- [ ] Clear completed tasks.
-- [ ] Render tasks from the `todos` array.
-- [ ] Use `textContent` for user-provided task text.
-- [ ] Use event delegation.
-- [ ] Test every feature.
-- [ ] Complete DOM practice exercises.
+- [✓ ] Add tasks.
+- [✓ ] Reject empty tasks.
+- [✓ ] Add tasks using Enter.
+- [✓ ] Mark tasks as completed.
+- [✓ ] Delete tasks.
+- [✓ ] Filter All, Active, and Completed tasks.
+- [✓ ] Clear completed tasks.
+- [✓ ] Render tasks from the `todos` array.
+- [✓ ] Use `textContent` for user-provided task text.
+- [✓ ] Use event delegation.
+- [✓ ] Test every feature.
+- [✓ ] Complete DOM practice exercises.
 
 ### Main Data Structure
 
